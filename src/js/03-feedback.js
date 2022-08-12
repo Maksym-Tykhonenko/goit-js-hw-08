@@ -24,7 +24,7 @@ function onFormInput(evt) {
     evt.preventDefault();
 
     if (message.value === '' || email.value === '') {
-        alert(`Заполните все поля`);
+        alert (`Заполните все поля`);
     } else {
         evt.currentTarget.reset();
         localStorage.removeItem(STORAGE_KEY);
